@@ -1,7 +1,13 @@
+import { Container } from '@material-ui/core';
+
 import './App.css';
 
 function App() {
-  return (<p>Hello World.</p>);
+  return (
+    <Container maxWidth={false}>
+      Hello World.
+    </Container>
+  );
 }
 
 export default App;

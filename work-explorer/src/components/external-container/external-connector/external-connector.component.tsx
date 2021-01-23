@@ -1,7 +1,16 @@
 import './external-connector.style.css';
 
-function ExternalConnector() {
-    return (<p>ExternalConnector is working</p>)
+type ExternalConnectorProps = {
+    icon: any    
+};
+
+const ExternalConnector = ({ icon }: ExternalConnectorProps) => {
+    const Icon: any = icon;
+    return (
+        <div className="external-connector">
+            <Icon fontSize='large'></Icon>
+        </div>
+    )
 }
 
 export default ExternalConnector;

@@ -1,7 +1,14 @@
 import './tree-view.style.css';
 
-function TreeView() {
-    return (<p>TreeView is working</p>)
+type TreeViewProps = {};
+
+// eslint-disable-next-line
+const TreeView = ({}: TreeViewProps) => {
+    return (
+        <div className="treeview-container">
+            Tree View
+        </div>
+    )
 }
 
 export default TreeView;

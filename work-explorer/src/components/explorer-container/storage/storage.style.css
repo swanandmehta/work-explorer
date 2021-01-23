@@ -1,0 +1,8 @@
+.storage-container {
+    width: 100%;
+    height: 10vh;
+}
+
+.storage-container .MuiLinearProgress-root {
+    height: 10px;
+}

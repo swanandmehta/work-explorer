@@ -3,7 +3,12 @@ import { Alarm, AssessmentOutlined, CallSplitOutlined } from '@material-ui/icons
 import ExternalConnector from '../external-connector/external-connector.component';
 import './external-container.style.css';
 
-function ExternalContainer() {
+type ExternalContainerProp = {
+
+}
+
+// eslint-disable-next-line
+const ExternalContainer = ({}: ExternalContainerProp) => {
     const appIcon1 = Alarm;
     const appIcon2 = AssessmentOutlined;
     const appIcon3 = CallSplitOutlined;

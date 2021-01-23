@@ -1,0 +1,7 @@
+.quick-access-img {
+    width: inherit;
+    height: 80px;
+    object-fit: scale-down;
+    overflow: hidden;
+    box-sizing: border-box;
+}
